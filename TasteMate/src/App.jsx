@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 import './App.css';
+import { Client } from './contentful/Client';
 
 function App() {
+ 
+  console.log(Client);
+ 
   return (
     <>
       <div className="main">
