@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
             <h1>TasteMate</h1>
             <p>This is some descriptive text about the app.</p>
             <button className="action-watch">Watch</button>
+            <Link to={"/blog"}>
             <button className="action-read">Read</button>
+            </Link>
           </div>
           </div>
           
